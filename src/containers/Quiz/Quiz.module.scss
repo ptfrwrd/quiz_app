@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
+
+$mainFont: 'Montserrat', sans-serif;
+.Quiz {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(90deg, #ffb6c3 0%, #ffe1ef 100%);
+}
+
+.Quiz h1 {
+    color: #670028;
+    margin-left: 10px;
+    font-family: $mainFont;
+}
+
+.QuizWrapper {
+    width: 600px;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
+
+$mainFont: 'Montserrat', sans-serif;
+
+.AnswerItem {
+    border: 1px solid #675b5d;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-family: $mainFont;
+}
+
+.AnswerItem:hover{
+    background: rgba(103, 0, 40, .2);
+    transition: background .3s ease-in-out;
+}
+.AnswerItem.success{
+    background: rgba(255, 225, 239, .7);
+}
+
+.AnswerItem.error{
+    background: rgba(59, 59, 59, .7);
+}
