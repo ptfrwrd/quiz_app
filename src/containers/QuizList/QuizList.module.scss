@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900');
+
+$mainFont: 'Montserrat', sans-serif;
+
+.QuizList{
+  font-family: $mainFont;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  flex-grow: 1;
+  width: 100%;
+  background: linear-gradient(90deg, #dfc9c2 0%, #ffb6c3 37%, #a7898a 100%);
+
+  & h1{
+    color: #673346;
+  }
+  & ul{
+    text-align: center;
+    list-style: none;
+    padding: 1em;
+    border: 2px solid #673346;
+    border-radius: 10px;
+    margin: 2em;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(56, 28, 28, .3);
+  }
+  & li {
+    margin-bottom: 10px;
+  }
+  & li a{
+    text-decoration: none;
+    color: #673346;
+  }
+  & li a:hover{
+    color: #e75fa0;
+  }
+}
